@@ -1,0 +1,25 @@
+table{
+    border-collapse: separate;
+    width:600px;
+}
+
+th, td{
+    padding: 7px;
+}
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid rgb(10, 10, 10);
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em; /* Realiza espaçamento entre as letras*/
+}
+
+tr.alternado{
+    background-color: #f5f1f1;
+}
+
+tr:hover{
+    background-color: #949090;
+}
